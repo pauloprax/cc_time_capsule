@@ -13,6 +13,14 @@ installation:
 - php artisan key:generate
 - php artisan migrate:fresh --seed
 
+endpoints:
+- POST /log
+- GET /log-random
+- GET /log/{id}
+- GET /categories
+- GET /categories/{id}
+- GET /test-hash
+
 
 start swoole/octane:
 
