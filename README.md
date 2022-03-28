@@ -13,6 +13,8 @@ installation:
 - php artisan key:generate
 - php artisan migrate:fresh --seed
 
+note: in case of any problem with MongoDB composer requirements run composer require mongodb/mongodb --ignore-platform-reqs
+
 endpoints:
 - POST /log
 - GET /log-random
